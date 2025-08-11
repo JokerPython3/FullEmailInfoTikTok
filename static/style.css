@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+.warrper {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+}
+
+.email {
+    padding: 12px 15px;
+    width: 250px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.email:focus {
+    box-shadow: 0 0 8px #ff7eb3;
+}
+.btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #ff7eb3, #ff758c);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #ff758c, #ff7eb3);
+    box-shadow: 0 0 15px rgba(255, 126, 179, 0.8);
+}
